@@ -1,0 +1,216 @@
+    @import "abstracts/function";
+    @import "abstracts/mixins";
+    @import "abstracts/variable";
+
+
+    @import "base/animation" ;
+    @import "base/base" ;
+    @import "base/ultilities" ;
+    @import "base/typography" ;
+     
+    @import "components/button";
+    @import "components/card";
+    @import "components/story"; 
+     @import "components/composition";
+     @import "components/feature-box";
+     @import "components/bg-video"; 
+     @import "components/form";
+     @import "components/popup";
+    
+               
+    @import "layout/grid";  
+    @import "layout/header"; 
+    @import "layout/footer"; 
+    @import "layout/navigation"; 
+       
+    @import "pages/home";          
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .header {
+//     height: 95vh;
+//     background-image: linear-gradient(
+//         to right bottom,
+//         rgba($color-primary-light, 0.8),
+//         rgba($color-primary-dark, 0.8)), 
+//          url(../img/docc.jpg);
+//     background-size: cover;
+//     background-position: top;
+//     position: relative;
+    
+//     clip-path: polygon(0 0, 100% 0, 100% 75vh,0 100%);
+
+
+//     &_logo-box {
+//         position: absolute;
+//         top: 40px;
+//         left: 40px;
+// }
+
+// &_logo {
+//     height: 3.5rem;
+     
+//    }
+   
+//    &_text-box {
+//        position: absolute;
+//        top: 40%;
+//        left: 50%;
+//        transform: translate(-50%, -50%);
+//        text-align: center;
+   
+//    }
+
+// }
+
+
+// .heading-primary {
+//  color: $color-white;
+//  text-transform: uppercase;
+
+//  backface-visibility: hidden;
+//  margin-bottom: 60px;
+
+//  &--main {
+//     display: block;
+//     font-size: 30px;
+//     font-weight: 200;
+//     letter-spacing: 30px;
+   
+//     animation-name: moveInLeft;
+//     animation-duration: 1s;
+//     animation-timing-function: ease-out;
+//     /* animation-iteration-count: 3s; */
+//     /* animation-delay: 3s; */
+//    }
+   
+//    &--sub {
+//     display: block;
+//     font-size: 15px;
+//     font-weight: 400;
+//     letter-spacing: 17.4px;
+//     animation: moveInRight 1s ease-in-out;
+//    }
+// }
+
+
+
+// @keyframes moveInLeft {
+//     0% {
+//   opacity: 0;
+//   transform: translatex(-100px);
+//     }
+
+//     80% {
+//     transform: translate(10px);
+//     }
+
+//     100% {
+//     opacity: 1;
+//     transform: translate(0);
+//     }
+// }
+
+// @keyframes moveInRight {
+//     0% {
+//   opacity: 0;
+//   transform: translatex(100px);
+//     }
+
+//     80% {
+//     transform: translate(-10px);
+//     }
+
+//     100% {
+//     opacity: 1;
+//     transform: translate(0);
+//     }
+// }
+
+// .btn {
+//     .btn:link,
+// .btn:visited {
+//     text-transform: uppercase;
+//     text-decoration: none;
+//     padding: 20px, 50px;
+//     display: inline-block;
+//     border-radius: 100px;
+//     transition: all .2s;
+// }
+
+// .btn:hover {
+//     transform: translate(-3px);
+//     box-shadow: 0 10px 20px rgba( $color-black, .2);
+// }
+
+// .btn:active {
+//     transform: translate(-1px);
+//     box-shadow: 0 5px 10px rgba( $color-black, .2);
+// }
+
+// .btn-white {
+//     background-color: $color-white;
+//     color:    $color-grey-dark;
+// }
+
+
+
+// btn::after {
+//     content: "";
+//     display: inline-block;
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 100px;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: -1;
+//     transition: all 4s;
+// }
+
+// .btn-white::after {
+//     background-color: $color-white;
+
+// }
+
+// .btn:hover::after {
+//     transform: scalex(1.5), scaleY(1.6);
+//     opacity: 0;
+// }
+
+// .btn-animated {
+//     animation: moveInBotton .5s ease-out .75s;
+// }
+// }
+
+
+
+// body {
+//     font-family: "lato", sans-serif;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 1.7;
+//     color: #777;
+//     padding: 30px;
+// }
+
+
+
